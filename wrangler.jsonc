@@ -10,7 +10,8 @@
 	"migrations": [
 		{
 			"new_sqlite_classes": [
-				"MyDurableObject"
+				"MyDurableObject",
+				"WebSocketDurableObject"
 			],
 			"tag": "v1"
 		}
