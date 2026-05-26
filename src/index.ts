@@ -182,6 +182,10 @@ export class WebSocketDurableObject extends DurableObject<Env> {
 			}
 		});
 
+		server.addEventListener("error", (event) => {
+			console.log(event)
+		})
+
 		return new Response(null, { status: 101, webSocket: client });
 	}
 }

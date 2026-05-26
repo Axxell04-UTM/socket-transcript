@@ -36,6 +36,7 @@
 
 		/* Skip type checking all .d.ts files. */
 		"skipLibCheck": true,
+		"ignoreDeprecations": "6.0",
 		"types": [
 			"./worker-configuration.d.ts"
 		]
